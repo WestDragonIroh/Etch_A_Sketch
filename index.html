@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hola Amigo </title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <h1> Etch-A-Sketch </h1>
+        </div>
+        <div class="main">
+            <div class="controls">
+                <div class="no_box">
+                    <button id='reset'class="btns" class="btns"> Change Size </button>
+                </div>
+                <div class="buttons">
+                    <button id="color_selected" data-color="black" type="button" class="btns"> Black </button>
+                    <button id="color_selected" data-color="grey" type="button" class="btns"> Grey </button>
+                    <button id="color_selected" data-color="rainbow" type="button" class="btns"> Rainbow </button>
+                    <button id="color_selected" data-color="eraser" type="button" class="btns"> Eraser </button>
+                </div>
+            </div>
+
+            <div id="board"  class="grid"></div>
+
+            <div class="buttons">
+                <button id='border' class="btns"> Border </button>
+                <button id='clear' class="btns"> Clear </button>
+            </div>
+        </div>
+        <div class="footer">
+            <p> ©️ 2021 Akshat Jaiswal, All Rights Reserved | Terms and Conditions </p>
+        </div>
+    </div>
+
+    <script src="app.js" />
+</body>
+</html>
