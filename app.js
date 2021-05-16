@@ -77,8 +77,8 @@ function changeSize() {
     if (newSize !== null){
         newSize = parseInt(newSize);
 
-        if (newSize < 1 || Number.isNaN(newSize)) {
-            alert("Enter a number from 1-64 range");
+        if (newSize < 1|| newSize > 100 || Number.isNaN(newSize)) {
+            alert("Enter a number from 1-100 range");
             changeSize();
         } else {
             size = newSize
